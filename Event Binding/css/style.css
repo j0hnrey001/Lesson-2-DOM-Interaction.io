@@ -1,0 +1,64 @@
+*{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: white;
+}
+header{
+    width: 400px;
+    box-shadow: 0 2px 8px rgba(15, 2, 2, 0.89);
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 40px;
+    background-color: rgba(16, 214, 16, 0.89);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid rgba(6, 192, 248, 0.925);
+}
+section{
+    width: 400px;
+    box-shadow: 0 2px 8px rgba(15, 2, 2, 0.89);
+    text-align: center;
+    color: white;
+    margin: auto;
+    margin-top: 25px;
+    background-color: rgb(0, 128, 128);
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px solid rgba(6, 192, 248, 0.925);
+}
+.events p{
+    padding: 5px;
+    font-size: 20px;
+}
+.line{
+    background-color: white;
+    height: 2px;
+}
+button{
+    background-color: rgb(0, 128, 128);
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+input{
+    margin-top: 15px;
+    box-shadow: 0 2px 8px rgba(36, 10, 10, 0.938);
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+.output{
+    background-color: rgba(16, 214, 16, 0.89);
+    border-radius: 10px;
+    border: 3px solid rgba(6, 192, 248, 0.925);
+    margin-top: 15px;
+
+}
