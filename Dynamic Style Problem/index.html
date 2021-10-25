@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.js"></script>
+    <script src="js/app.js" defer></script>
+    <title>Dynamic Style Problem</title>
+</head>
+<body>   
+    <header>
+        <h1> Vue Dynamic Style</h1>
+    </header>
+    <section id="events">
+        <input type="text" v-on:keyup="set" placeholder= "Enter 'user1 or user2' ">
+        <div :class="{visible: isButton, hide: !isButton}">
+        
+        <p :class="user">Style Me!</p>
+        </div>
+        <button @click="toggle"> Toggle </button>
+
+        <div>
+        <input type="text" placeholder= "Enter a color" v-on:input="color">
+        <br>
+        <span>(blue/grey/lime)</span>
+        </div>
+
+        <p v-bind:style="{background: inputColor}">Style me Inline!</p>
+    </section>
+</body>
+</html>
